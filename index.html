@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
 <!-- Created by Rob Denton/The Register-Guard on August 27, 2014 -->
+<!-- rob [dot] denton [at] registerguard [dot] com -->
 <head>
 
 	<meta charset="utf-8">
@@ -151,9 +152,6 @@
 			</div>
 			<img src="media/images/oregon-qb_003.jpg" width="100%" style="display:block">
 		</figure>
-		<figcaption>
-			(Tom Penix/The Register Guard)
-		</figcaption>
 	</div>
 
 	<!-- wrapper -->
@@ -163,10 +161,10 @@
 
 		<!-- [BEGIN] byline -->
 		<div class="pure-g bat_bydate">
-			<div class="pure-u-1 pure-u-md-1-2 bat_byline">
-				By <a href="mailto:ryan.thorburn@registerguard.com">Ryan Thorburn</a></a><span id="bat_byline_break"> | </span>The Register-Guard
+			<div class="pure-u-1 pure-u-md-3-4 bat_byline">
+				By <a href="mailto:ryan.thorburn@registerguard.com">Ryan Thorburn</a><span class="bat_byline_break"> | </span>Illustration by <a href="mailto:tom.penix@registerguard.com">Tom Penix</a><span class="bat_byline_break"> | </span>The Register-Guard
 			</div><!-- /.pure-u-1 /.pure-u-md-1-2 /.bat_byline -->
-			<div class="pure-u-1 pure-u-md-1-2 bat_date">
+			<div class="pure-u-1 pure-u-md-1-4 bat_date">
 				August 28, 2014
 			</div><!-- /.pure-u-1 /.pur-u-md-1-2 /.bat_date -->
 		</div><!-- /.pure-g /.bat_bydate -->
@@ -377,7 +375,7 @@
 
 		// break byline to two lines so that "| The Register-Guard" doesn't break with multiple authors
 		if ($(window).width() <= 1005){
-			$("#bat_byline_break").replaceWith("<br>");
+			$(".bat_byline_break").replaceWith("<br>");
 		}
 
 		// smooth scrolling on an in-page link
